@@ -33,34 +33,5 @@ export default {
 </style>
 
    
-    </section>
-  </Panel>
-</template>
-<script>
-import Panel from '../core/panel.vue'
-export default {
-  components: {
-    Panel
-  }
-}
-</script>
-<style lang="scss" module>
-  @import '../../css/element.scss';
-  .panel{
-    @include panel;
-    margin-bottom: 0;
-    >h4{
-      display: none;
-    }
-    .content{
-      height: 102px;
-      img{
-        width: 100%;
-        height: 102px;
-        display: block;
-      }
-    }
-  }
-</style>
 
 
