@@ -20,7 +20,7 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'raise'}">
             <img src="//img12.360buyimg.com/jrpmobile/jfs/t3604/98/635506544/2317/443d3a51/580f240aNbee3dcc4.png?width=66&height=66" alt="">
             <p>众筹</p>
         </router-link>
@@ -42,6 +42,13 @@
     }
   }
 </script>
+<style>
+  .router-link-exact-active p{
+    color: red!important;
+  }
+
+</style>
+
 <style lang="scss" module>
   @import '../../css/element.scss';
 
